@@ -1,0 +1,117 @@
+a{
+    color:black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-style:oblique;
+}
+
+h1{
+    text-align: center;
+    border-bottom:5px rgb(78, 79, 77) solid;
+    border-style: double;
+    border-right: 0;border-left: 0;border-top: 0;
+    margin:0;
+    padding: 20px;
+}
+
+#grid ul{
+  margin:0;
+  margin-left:60px;
+  padding-top:20px;
+  padding-left:0;
+  font-size: 30px;
+  height: 1000px;
+  
+}
+.content{
+    color:darkblue;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-style:oblique;
+}
+#name{
+    font-size: 60px;
+    font-family: sans-serif;
+    font-style:oblique;
+}
+
+body{
+  margin: 0;
+
+}
+
+p{
+    color:black;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-style:oblique;
+
+}
+
+
+#grid{
+  display:grid;
+  grid-template-columns: 253px 5fr;
+}
+
+#text{
+  padding-left: 50px;
+  padding-top: 0;
+  border-right: 0;border-top: 0;border-bottom: 0;
+  border-left: 5px rgb(78, 79, 77) solid;
+  border-style: double;
+  font-family: sans-serif;
+  font-style:oblique;
+  font-size: 30px;
+
+  
+}
+#text2{
+  padding-left: 50px;
+  padding-top: 0;
+  border-right: 0;border-top: 0;border-bottom: 0;
+  border-left: 5px rgb(78, 79, 77) solid;
+  border-style: double;
+  font-size: 18px;
+  -webkit-text-size-adjust : none;
+  font-family: sans-serif;
+  font-style:oblique;
+
+
+  
+}
+
+.house{
+    color:blue;
+}
+
+ol{
+    font-size: 25px;
+    -webkit-text-size-adjust : none;
+    font-family: sans-serif;
+    font-style:oblique;
+  
+}
+
+#site{
+    color:brown;
+    font-family: sans-serif;
+    font-style:oblique;
+}
+
+body{
+  background-image: linear-gradient(
+    rgba(227, 227, 227, 0.8),
+    rgba(219, 158, 158, 0.8) 
+  ),url("background.jpg");
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  font-family: sans-serif;
+  font-style:oblique;
+  
+
+
+}
+
